@@ -7,8 +7,8 @@
         span 4
       h1 Registros, eficiencia de operación y fallas
 
-    .row.align-items-center.mb-0
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-0
+      .col-lg-4.col-8.mb-4.mb-lg-0
         img.w-100(src="@/assets/curso/temas/t4/img1.svg" alt="")
       .col-lg-8
         p.mb-4 Evaluar la operación permite reconocer si las labores se realizaron con la calidad, la oportunidad y el uso de recursos previstos. Para ello se necesitan registros confiables que relacionen el trabajo ejecutado con el tiempo empleado, el consumo de insumos y las novedades presentadas.
@@ -19,53 +19,53 @@
     #t_4_1.titulo-segundo.color-acento-contenido
       h2 4.1 Registros: concepto, tipos e importancia
 
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 Un registro es un documento o archivo que deja constancia de una actividad y de sus resultados. En la operación de maquinaria permite conocer qué labor se realizó, dónde, cuándo, con qué equipo, por quién y bajo qué condiciones.
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Esta información sirve para calcular indicadores, estimar costos, sustentar la facturación y programar el mantenimiento. También permite reconstruir lo sucedido cuando aparecen diferencias entre el trabajo previsto y el resultado obtenido.
         p.mb-0 Los registros se complementan entre sí. Los siguientes tipos reúnen información diferente que debe relacionarse mediante la identificación de la máquina, el lote y la fecha:
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t4/img2.png" alt="")
 
     .BGF03.px-5.p-4.mb-4
       SlyderA(tipo="b").tarjeta.bg00.p-4
         .row.align-items-center
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
             h4 Reporte diario de operación
             p.mb-0 Consolida la labor, el área trabajada, los tiempos y las novedades. Permite relacionar la producción con los recursos utilizados y comparar jornadas, siempre que se mantengan criterios de medición consistentes.
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
             img.w-100(src="@/assets/curso/temas/t4/img3.png" alt="")
         .row.align-items-center
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
             h4 Chequeo preoperacional
             p.mb-0 Documenta las condiciones del equipo antes de iniciar el trabajo. Ayuda a reconocer anomalías y deja constancia de las verificaciones realizadas; su diligenciamiento debe acompañarse de una inspección efectiva.
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
             img.w-100(src="@/assets/curso/temas/t4/img4.png" alt="")
         .row.align-items-center
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
             h4 Registro de combustible
             p.mb-0 Identifica cantidades abastecidas, fechas y equipos. Para calcular el consumo de una labor debe relacionarse con las existencias iniciales y finales o con un método de medición definido; la cantidad abastecida no equivale automáticamente a la consumida.
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
             img.w-100(src="@/assets/curso/temas/t4/img5.png" alt="")
         .row.align-items-center
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
             h4 Registro de novedades y fallas
             p.mb-0 Describe los eventos, sus efectos y la duración de las interrupciones. Debe diferenciar lo observado de las posibles causas, especialmente cuando todavía no existe un diagnóstico técnico.
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
             img.w-100(src="@/assets/curso/temas/t4/img6.png" alt="")
         .row.align-items-center
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
             h4 Órdenes de trabajo y archivos digitales
             p.mb-0 Documentan las condiciones del servicio y los datos generados durante la ejecución. Pueden incluir aceptación del cliente, mapas, trayectorias y registros del monitor, según los equipos y funciones disponibles.
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
             img.w-100(src="@/assets/curso/temas/t4/img7.png" alt="")
 
     .row.justify-content-center
       .col-lg-10
         .tema4-registro-cierre.p-3
           .row.align-items-center
-            .col-md-auto.mb-3.mb-md-0
+            .col-md-auto.mb-3.mb-md-0.d-none.d-lg-block
               .tema4-registro-cierre__icono
                 img.w-100(src="@/assets/curso/temas/t4/img8.svg" alt="")
             .col-md
@@ -80,13 +80,13 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Un formato debe utilizar campos claros, unidades definidas y espacio suficiente para describir novedades. Su extensión debe corresponder a la información necesaria para tomar decisiones, evitando solicitar datos que después no se utilizan.
 
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 El diligenciamiento se realiza durante la operación o tan pronto como sea posible, por la persona responsable. Las correcciones deben conservar la trazabilidad del dato original. Cuando un campo no aplica, conviene indicarlo expresamente para distinguirlo de una omisión.
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Los tiempos requieren especial atención. La diferencia del horómetro puede representar horas de funcionamiento del motor, pero no necesariamente el tiempo total transcurrido en campo. Para calcular indicadores deben registrarse también los horarios y las paradas, según el alcance de la evaluación.
         p.mb-0 La siguiente tabla presenta un ejemplo que servirá de base para los cálculos posteriores. Los datos son ilustrativos y se supone que fueron verificados mediante los registros correspondientes:
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t4/img10.png" alt="")
 
     .row.justify-content-center
@@ -94,7 +94,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 6.
           span Ejemplo de reporte diario de operación
-        .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+        .tabla-b.tema1-tabla.mb-4
           table
             thead
               tr
@@ -137,13 +137,13 @@
           .col-lg-4
             img.w-100.object-fit-cover(src="@/assets/curso/temas/t4/img11.png" alt="")
           .col-lg-8.tema4-nota.p-4
-            img.tema4-icono.mb-3(src="@/assets/curso/temas/t4/img12.svg" alt="")
+            img.tema4-icono.mb-3(src="@/assets/curso/temas/t4/img12.svg" alt="").d-none.d-lg-block
             p.mb-0 Estos datos no son infalibles. Un ancho mal configurado, un sensor sin calibrar o una interrupción del posicionamiento pueden alterar los resultados. Además, una zona marcada como cubierta no demuestra por sí sola que se haya aplicado la dosis o alcanzado la profundidad requerida. Por ello, la información digital debe contrastarse con los registros y las verificaciones de campo.
 
     p.mb-4 Los siguientes anexos presentan ejemplos diligenciados de los registros de operación, combustible y novedades de una jornada de trabajo agrícola. Permiten reconocer los campos necesarios y comprobar la correspondencia entre los tiempos, las actividades y los consumos registrados:
 
     .row.justify-content-center
-      .col-lg-9.mb-4.mb-lg-0
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         .tarjeta--azul.p-4.mb-4
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -183,20 +183,20 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_03_Registro_de_novedades_y_paradas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img(src="@/assets/curso/temas/t4/img16.png" alt="")
 
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3 Eficiencia de operación: concepto, procedimientos y criterios
 
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 La eficiencia de operación expresa cómo se aprovechan los recursos durante una labor. Uno de sus indicadores es la eficiencia de campo, que relaciona la capacidad efectiva con la capacidad teórica.
         .cajon.color-primario.p-4.mb-4
           p.mb-0 La capacidad teórica representa el área que podría atenderse por hora utilizando el ancho de trabajo y la velocidad considerados, sin descontar pérdidas por giros, traslapes o interrupciones. La capacidad efectiva relaciona el área realmente atendida con el tiempo total de campo definido para la evaluación.
         p.mb-0 Para calcular estos valores se sigue una secuencia que permite comprobar la procedencia de los datos:
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t4/img17.png" alt="")
 
     .tarjeta--container.row.mb-4
@@ -228,7 +228,7 @@
     p.mb-4 Las relaciones utilizadas, con ancho en metros y velocidad en kilómetros por hora, son:
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.col-8.mb-4.mb-lg-0
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t4/img22.svg" alt="")
       .col-lg-7
         .tarjeta.tema2-ejemplo.p-4.h-100.d-flex.align-items-center
@@ -276,13 +276,13 @@
     #t_4_4.titulo-segundo.color-acento-contenido
       h2 4.4 Otros indicadores de la operación
 
-    .row.align-items-stretch.mb-4
-      .col-lg-9.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 La eficiencia de campo no describe por sí sola el desempeño del conjunto. También deben evaluarse el consumo, la disponibilidad, el cumplimiento del programa y la calidad obtenida.
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Cada indicador necesita una definición que permita repetir el cálculo. Deben utilizarse el mismo periodo, las mismas unidades y criterios comparables al analizar distintas máquinas o jornadas.
         p.mb-0 La siguiente tabla reúne indicadores complementarios y señala las precauciones necesarias para interpretarlos:
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t4/img23.png" alt="")
 
     
@@ -292,7 +292,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 7.
           span Indicadores complementarios de evaluación de la operación
-        .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+        .tabla-b.tema1-tabla.mb-4
           table
             thead
               tr
@@ -389,8 +389,8 @@
     Separador
     #t_4_6.titulo-segundo.color-acento-contenido
       h2 4.6 Manejo, reporte y prevención de fallas
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p El manejo inicial busca proteger a las personas, evitar daños adicionales y conservar información para evaluar el evento. La decisión de intervenir depende de la capacitación, la autorización y el procedimiento aplicable.
         p.mb-4 La siguiente secuencia organiza la actuación y el reporte sin reemplazar las instrucciones específicas del equipo:
         LineaTiempoD.color-acento-botones
@@ -399,7 +399,7 @@
           p.mb-0(numero="C" titulo="Comunicación y autorización") Informar al responsable y determinar si la revisión está dentro de las competencias del operador o requiere personal técnico. No anular protecciones para continuar trabajando.
           p.mb-0(numero="D" titulo="Registro de la interrupción") Anotar máquina, implemento, horómetro, horarios, duración, acción realizada y resultado. Identificar la causa como probable o confirmada, según la evidencia disponible.
           p.mb-0(numero="E" titulo="Verificación del reinicio") Comprobar que se cumplan las condiciones de seguridad y las autorizaciones previstas. Registrar si la máquina queda operativa, con restricciones o fuera de servicio.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.tema4-manejo__imagen(src="@/assets/curso/temas/t4/img29.png" alt="")
 
     
@@ -411,7 +411,7 @@
             img.tema4-prevencion__imagen(src="@/assets/curso/temas/t4/img30.png" alt="")
           .col-lg-8
             .tema4-prevencion__contenido.p-4.h-100.d-flex.flex-column.justify-content-center
-              img.tema4-prevencion__icono.mb-4(src="@/assets/curso/temas/t4/img31.svg" alt="")
+              img.tema4-prevencion__icono.mb-4(src="@/assets/curso/temas/t4/img31.svg" alt="").d-none.d-lg-block
               p.mb-0 La prevención se apoya en el alistamiento, el mantenimiento programado, la inspección del terreno y la configuración correcta. El análisis de eventos repetidos permite establecer prioridades, considerando frecuencia, duración, costo y consecuencias para la seguridad.
 
     .titulo-pastilla.mb-4
@@ -421,8 +421,8 @@
     p.mb-4 Durante un mes se registraron 14 eventos con 38 horas de interrupción. El resumen permite comparar cuáles se repiten más y cuáles producen mayores tiempos de parada:
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .row.align-items-stretch.mb-4
-          .col-lg-8.mb-4.mb-lg-0
+        .row.align-items-stretch.justify-content-center.mb-4
+          .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
             .tema2-ejemplo.p-4.h-100.d-flex.align-items-center
               ul.lista-ul--color.mb-0
                 li
@@ -441,7 +441,7 @@
                   i.fas.fa-seedling
                   span
                     strong Atascamientos en suelo húmedo: dos eventos y ocho horas.
-          .col-lg-4
+          .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
             img.tema4-eventos__imagen(src="@/assets/curso/temas/t4/img32.png" alt="")
 
     p.mb-4 El radiador presentó la mayor frecuencia, mientras que las mangueras acumularon el mayor tiempo de interrupción:
@@ -470,14 +470,14 @@
     #t_4_7.titulo-segundo.color-acento-contenido
       h2 4.7 Relación entre eficiencia de operación y costos
 
-    .row.align-items-stretch.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-3.col-8.mb-4.mb-lg-0
         img.tema4-costos__imagen(src="@/assets/curso/temas/t4/img34.png" alt="")
       .col-lg-9
         p.mb-4 La eficiencia influye en el costo por hectárea porque modifica el tiempo requerido para atender una superficie. Las esperas evitables, los traslapes y las interrupciones pueden aumentar las horas utilizadas y el consumo asociado.
         .tema4-costos__destacado.p-4.mb-4
           .row.align-items-center
-            .col-md-auto.mb-4.mb-md-0
+            .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
               img.tema4-costos__icono(src="@/assets/curso/temas/t4/img35.svg" alt="")
             .col
               p.mb-0 Los costos incluyen conceptos de propiedad y de operación. Algunos se distribuyen según el uso anual y otros cambian con el combustible, el mantenimiento o la mano de obra. Por ello, no todos se generan de la misma manera durante cada parada.
@@ -496,8 +496,8 @@
       img(src="@/assets/curso/icon.svg" alt="")
       span Ejemplo resuelto: efecto de la eficiencia en el costo por hectárea
 
-    .row.align-items-stretch.mb-4
-      .col-lg-9.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         .tema2-ejemplo.p-4.h-100
           p.mb-4 Se supone un costo horario de $150.000 para el conjunto tractor-rastra y una capacidad teórica de 2,1 ha/h. Para aislar el efecto de la eficiencia, el costo horario se mantiene constante en ambos escenarios.
           p.mb-4 Con una eficiencia del 70 %:
@@ -520,7 +520,7 @@
               i.fas.fa-seedling
               span
                 strong Costo por hectárea = $150.000 ÷ 1,722 = $87.108, aproximadamente.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.tema4-costos__imagen(src="@/assets/curso/temas/t4/img36.png" alt="")
 
     p.mb-4 La mejora de 12 puntos porcentuales reduce el costo estimado en aproximadamente $14.933 por hectárea. Para 800 ha, el ahorro calculado sin redondear los valores intermedios es cercano a $11.946.242.
@@ -541,10 +541,12 @@
         figure.mb-4
           img.d-none.d-lg-block.w-100(src="@/assets/curso/temas/t4/img37.svg" alt="Figura 6 que relaciona el ciclo de evaluación de la operación mediante cinco etapas: registrar la operación, calcular indicadores, analizar resultados, definir acciones y verificar resultados.")
           img.d-block.d-lg-none.w-100(src="@/assets/curso/temas/t4/img38.svg" alt="Figura 6 que relaciona el ciclo de evaluación de la operación mediante cinco etapas: registrar la operación, calcular indicadores, analizar resultados, definir acciones y verificar resultados.")
-
+    
+    .row.justify-content-center.align-items-center
+      .col-lg-10
         .tema1-reflexion
           .row.g-0.align-items-stretch
-            .col-md-2.tema1-reflexion__icono.p-4
+            .col-lg-1.tema1-reflexion__icono.p-3.py-4
               img(src="@/assets/curso/temas/t4/img39.svg" alt="")
             .col-md-10.tema1-reflexion__contenido.p-4
               h3.h5 Para reflexionar

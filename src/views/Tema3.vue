@@ -18,13 +18,13 @@
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Piloto automático: concepto y tipos
 
-    .row.align-items-stretch.mb-4
-      .col-lg-9.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 Un sistema de piloto automático agrícola reúne equipos que actúan sobre la dirección para mantener la máquina próxima a una trayectoria de referencia. Utiliza la posición GNSS y, según su diseño, información de sensores de orientación, inclinación y movimiento para calcular las correcciones de dirección.
         .tarjeta.tema2-ejemplo.p-4.mb-4
           p.mb-0 Sus componentes habituales incluyen la antena y el receptor GNSS, el monitor, el controlador de guiado, los sensores y el actuador de dirección. También puede utilizar una base RTK, una red o un servicio satelital de corrección, de acuerdo con la exactitud requerida y la compatibilidad del equipo.
         p.mb-0 Los sistemas se diferencian por la forma de controlar la dirección y por su integración con la máquina. La siguiente tabla compara las alternativas más habituales e incluye el guiado del implemento como una función complementaria:
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.tarjeta.tema3-piloto-imagen(src="@/assets/curso/temas/t3/img2.png" alt="")
 
     .row.justify-content-center.align-items-center
@@ -32,7 +32,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 5.
           span Sistemas de guiado y control automático de la dirección
-        .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+        .tabla-b.tema1-tabla.mb-4
           table
             thead
               tr
@@ -73,14 +73,14 @@
     p.mb-4 La configuración puede organizarse en los siguientes pasos. La secuencia es orientativa y debe adaptarse al manual del sistema instalado:
 
     .row.align-items-start.justify-content-center.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           p.mb-0(numero="A" titulo="Verificación del conjunto") Comprobar la compatibilidad del tractor, el monitor, el receptor y el actuador. Revisar el montaje, las conexiones y el estado mecánico de la dirección. No debe intentarse compensar una falla mecánica mediante ajustes del piloto.
           p.mb-0(numero="B" titulo="Configuración del tractor") Seleccionar el perfil correspondiente e ingresar las medidas solicitadas. Verificar especialmente la altura de la antena y sus desplazamientos longitudinal y lateral. Un error en estos valores puede afectar la compensación de inclinación y la posición calculada del vehículo.
           p.mb-0(numero="C" titulo="Configuración del implemento") Registrar el tipo de acople, el ancho efectivo de trabajo, las distancias al punto de referencia y el desplazamiento lateral. Diferenciar el ancho físico del equipo, el ancho de aplicación y la separación entre líneas guía, cuando el sistema disponga de campos independientes.
           p.mb-0(numero="D" titulo="Calibración del guiado") Ejecutar las rutinas de sensores y dirección en el lugar y las condiciones indicadas por el fabricante. Algunas requieren desplazamientos o giros, por lo que deben realizarse con espacio suficiente y sin personas u obstáculos en la zona de maniobra.
           p.mb-0(numero="E" titulo="Prueba y validación") Comprobar el seguimiento de una línea y la separación real entre pasadas. Revisar el resultado sobre el terreno y en el implemento, además de observar la pantalla. Guardar el perfil validado e identificarlo con un nombre que permita reconocer el conjunto utilizado.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100(src="@/assets/curso/temas/t3/img4.png" alt="")
 
     p.mb-4 La calibración ajusta el modelo del sistema al comportamiento real del vehículo. Puede comprender la compensación de inclinación, la respuesta de la dirección y la sensibilidad de seguimiento. Una respuesta excesiva puede producir oscilaciones; una respuesta insuficiente puede dificultar el retorno a la trayectoria. Los parámetros y el orden de ajuste dependen del sistema, por lo que no deben aplicarse valores universales.
@@ -121,12 +121,12 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Líneas guía, criterios y técnicas de operación
 
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 Las líneas guía son referencias geométricas que el sistema utiliza para orientar las pasadas. Pueden crearse a partir de puntos, rumbos, recorridos grabados o características del lote. Su elección debe considerar la forma del terreno, la labor, las restricciones de circulación y la capacidad de maniobra del conjunto.
         .tema2-ejemplo.p-4
           p.mb-0 Los nombres y las funciones disponibles varían entre fabricantes. Los siguientes ejemplos muestran cómo se organizan las trayectorias rectas, curvas y circulares, así como el trabajo en cabeceras, según las características del entorno agrícola:
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100(src="@/assets/curso/temas/t3/img5.png" alt="")
 
     .row.justify-content-center.align-items-center
@@ -229,8 +229,8 @@
         em software
         |  del sistema de guiado
 
-    .row.align-items-stretch.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t3/img12.png" alt="")
       .col-lg-8
         p.mb-4 El firmware es un tipo de software integrado en los componentes electrónicos que controla funciones internas del receptor, el monitor o el controlador de dirección. En el uso cotidiano, suele distinguirse del software de aplicación, que permite configurar equipos, visualizar el guiado y gestionar las labores.
@@ -262,7 +262,7 @@
       .col-lg-10
         .tema1-reflexion
           .row.g-0.align-items-stretch
-            .col-md-2.tema1-reflexion__icono.p-4
+            .col-lg-1.tema1-reflexion__icono.p-3.py-4
               img(src="@/assets/curso/temas/t3/img13.svg" alt="")
             .col-md-10.tema1-reflexion__contenido.p-4
               h3.h5 Para reflexionar

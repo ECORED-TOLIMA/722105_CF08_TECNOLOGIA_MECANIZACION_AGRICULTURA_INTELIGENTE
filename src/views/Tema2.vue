@@ -8,7 +8,7 @@
       h1 Sistemas de navegación global por satélite y coordenadas
 
     p.mb-4 La agricultura de precisión se apoya en la capacidad de conocer la posición de una máquina dentro del lote con la exactitud que requiere cada labor. Los sistemas globales de navegación por satélite, conocidos como GNSS, proporcionan información para orientar los recorridos, registrar las operaciones y relacionar los datos de campo con una ubicación.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
         .bloque-texto-g.tema1-bloque-empresa.p-3.p-sm-4.p-md-5.mb-0.tema2-bloque-apertura
           .bloque-texto-g__img(aria-hidden="true")
@@ -19,13 +19,13 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 GNSS: conceptos, constelaciones y segmentos
 
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 GNSS corresponde a la expresión inglesa Global Navigation Satellite System, que significa sistema global de navegación por satélite. Estos sistemas permiten calcular posición, velocidad y tiempo a partir de las señales transmitidas por satélites.
         .tema2-nota.p-4.mb-4
           p.mb-0 El receptor utiliza el tiempo de propagación de las señales para estimar distancias, denominadas seudodistancias, porque incluyen errores de reloj y otras fuentes de incertidumbre. En una solución básica se necesitan al menos cuatro satélites para resolver las tres componentes de posición y el desfase del reloj del receptor. Disponer de cuatro satélites no garantiza, por sí solo, una posición adecuada para labores de precisión.
         p.mb-0 Las principales constelaciones globales son GPS, de Estados Unidos; GLONASS, de Rusia; Galileo, de la Unión Europea; y BeiDou, de China. Los receptores compatibles pueden utilizar señales de varias constelaciones, lo que amplía las posibilidades de observación y mejora la disponibilidad del posicionamiento.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t2/img2.png" alt="")
 
     p.mb-4 El funcionamiento de estos sistemas se organiza en tres segmentos que cumplen funciones complementarias. Los siguientes apartados permiten distinguir de dónde proceden las señales, cómo se supervisan y de qué manera se utilizan en la maquinaria agrícola:
@@ -64,8 +64,8 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Vulnerabilidades y sistemas de corrección
 
-    .row.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         img.w-100(src="@/assets/curso/temas/t2/img6.png" alt="")
       .col-lg-8
         p.mb-4 Las señales GNSS pueden verse afectadas durante su recorrido y recepción. Los retrasos atmosféricos, los errores de órbita y reloj, la distribución de los satélites y las condiciones del entorno influyen en la posición calculada.
@@ -113,7 +113,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 3.
           span Alternativas de posicionamiento y criterios para su utilización
-        .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+        .tabla-b.tema1-tabla.mb-4
           table
             thead
               tr
@@ -150,32 +150,30 @@
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 RTK y aplicaciones del GNSS en la operación
 
-    .row.align-items-stretch.mb-4
-      .col-lg-9.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 RTK significa Real-Time Kinematic, o posicionamiento cinemático en tiempo real. Esta técnica utiliza mediciones de la fase de la señal portadora y datos de una estación base o una red de referencia para obtener una posición de alta exactitud.
         .tarjeta.tema2-formula.p-4.mb-4
           p.mb-0 En una configuración con base local, la estación permanece en un punto de coordenadas conocidas y transmite información al receptor móvil de la máquina, denominado rover. El intercambio puede realizarse por radio o mediante una conexión a internet. En RTK de red, varias estaciones proporcionan información que se procesa para generar las correcciones utilizadas por el móvil.
         p.mb-0 El receptor puede mostrar estados como fijo o flotante, que representan distintas condiciones de resolución de las mediciones. La solución fija suele permitir el desempeño centimétrico esperado, pero debe evaluarse junto con los indicadores de calidad y las condiciones de recepción.
-      .col-lg-3
-        img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t2/img12.png" alt="")
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
+        img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t2/img12.png" alt="")    
 
-    
-
-    .row.align-items-center.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-3.col-8.mb-4.mb-lg-0
         img.w-100(src="@/assets/curso/temas/t2/img13.svg" alt="")
       .col-lg-9
         .cajon.color-primario.p-4.mb-4
           p.mb-0 La repetibilidad entre temporadas requiere conservar una referencia consistente. Si se cambia la ubicación de la base sin determinar correctamente sus coordenadas, pueden desplazarse las líneas almacenadas. Por ello, RTK permite regresar con alta exactitud a recorridos anteriores, pero no garantiza pasar exactamente por el mismo punto en cualquier circunstancia (NovAtel, s. f.).
         p.mb-0 Para reconocer los equipos utilizados en una configuración con base local, la figura 2 muestra una estación de referencia y un tractor con antena GNSS. La ilustración permite distinguir el equipo que permanece en una ubicación fija del receptor que se desplaza con la máquina:
 
-    
-
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 2.
-      span Estación de referencia y receptor GNSS en maquinaria agrícola
     .row.justify-content-center.align-items-center
       .col-lg-10
+
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 2.
+          span Estación de referencia y receptor GNSS en maquinaria agrícola
+    
         figure.mb-4
           img.d-none.d-md-block.w-100(src="@/assets/curso/temas/t2/img14.png" alt="Figura 2 que ejemplifica una configuración GNSS con estación de referencia sobre un trípode y receptor instalado en un tractor para apoyar las labores agrícolas.")
           img.d-block.d-md-none.w-100(src="@/assets/curso/temas/t2/img14_1.png" alt="Figura 2 que ejemplifica una configuración GNSS con estación de referencia sobre un trípode y receptor instalado en un tractor para apoyar las labores agrícolas.")
@@ -250,7 +248,7 @@
         p.mb-0 Las coordenadas geográficas expresan la posición mediante latitud y longitud. La latitud indica la ubicación angular al norte o al sur del ecuador; la longitud, al este o al oeste del meridiano de referencia. Pueden escribirse en grados, minutos y segundos o en grados decimales.
 
     .row.align-items-center.mb-4
-      .col-md-auto.mb-4.mb-md-0
+      .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema2-icono(src="@/assets/curso/temas/t2/img16.svg" alt="")
       .col
         p.mb-0 Las coordenadas planas se obtienen mediante una proyección cartográfica. Se expresan generalmente en metros como valores este y norte. Facilitan el trabajo con mapas, distancias y áreas, aunque las proyecciones introducen deformaciones que deben considerarse cuando se necesitan mediciones de alta exactitud.
@@ -262,7 +260,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 4.
           span Diferencias entre coordenadas geográficas y planas
-        .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+        .tabla-b.tema1-tabla.mb-4
           table
             thead
               tr
@@ -308,16 +306,16 @@
       p.mb-4 La operación se realiza con la magnitud del ángulo y después se asigna el signo del hemisferio: norte y este positivos; sur y oeste negativos, cuando el programa utiliza esa convención.
       p.mb-4 Los siguientes cálculos muestran la conversión de una latitud norte y una longitud oeste. En ambos casos se conserva la ubicación del punto; únicamente cambia la forma de expresar el ángulo:
       
-      .tema2-factor-titulo.d-inline-block.px-4.py-2.mb-3
-        span Latitud:
+      .titulo-sexto.color-acento-contenido.tema2-factor-titulo.d-inline-block.px-4.py-1.mb-3
+        span.text-bold Latitud
       p.mb-4 Para 4° 36′ 30″ N, se suman los tres componentes y se mantiene el signo positivo por corresponder al hemisferio norte.
       .row.justify-content-center.mb-4
         .col-lg-10
           .tema2-formula.p-4
             .tema2-calculo.p-4
               p.tema2-calculo__operacion.mb-0 4 + (36 ÷ 60) + (30 ÷ 3.600) = 4,608333…°
-      .tema2-factor-titulo.d-inline-block.px-4.py-2.mb-3
-        span Longitud:
+      .titulo-sexto.color-acento-contenido.tema2-factor-titulo.d-inline-block.px-4.py-1.mb-3
+        span.text-bold Longitud
       p.mb-4 Para 74° 04′ 48″ O, se calcula la magnitud y se asigna el signo negativo por corresponder al hemisferio oeste.
       .row.justify-content-center
         .col-lg-10
@@ -338,15 +336,15 @@
         em Datum
         | , elipsoide, geoide y alturas
 
-    .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p Las coordenadas y las alturas necesitan superficies y referencias que permitan interpretarlas. El elipsoide, el geoide y el datum se relacionan entre sí, pero no representan lo mismo.
         p.mb-4 Los siguientes conceptos permiten diferenciar la superficie matemática utilizada en el posicionamiento, la referencia relacionada con la gravedad y el marco en el que se expresan las coordenadas:
         LineaTiempoD.color-acento-botones
           p.mb-0(numero="1" titulo="Elipsoide") Superficie matemática regular, ligeramente achatada en los polos, que aproxima la forma general de la Tierra. Sirve de referencia para calcular coordenadas geodésicas, como latitud y longitud, y alturas elipsoidales. Su geometría permite realizar cálculos de posicionamiento, aunque no representa las irregularidades del terreno ni el nivel medio del mar.
           p.mb-0(numero="2" titulo="Geoide") Superficie equipotencial del campo de gravedad terrestre que aproxima el nivel medio del mar y se prolonga bajo los continentes. Su forma es irregular debido a las variaciones en la distribución de las masas terrestres. Se utiliza como referencia para las alturas ortométricas y permite relacionarlas con las alturas elipsoidales obtenidas mediante GNSS.
           p.mb-0(numero="3" titulo="<em>Datum</em> y marco de referencia") Establecen la referencia respecto de la cual se expresan las coordenadas y permiten relacionar las mediciones con la Tierra. El marco materializa esa referencia mediante estaciones con coordenadas determinadas. Para integrar datos de distintos equipos es necesario comprobar su compatibilidad; en trabajos de alta exactitud también importan la realización del marco y la época de las coordenadas.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100(src="@/assets/curso/temas/t2/img17.png" alt="")
 
     p.mb-4 Los receptores GNSS determinan alturas elipsoidales. Un programa puede mostrar alturas convertidas si tiene configurado un modelo vertical. Por eso, una lectura denominada “altura” no debe interpretarse automáticamente como una cota sobre el nivel del mar.
@@ -369,16 +367,17 @@
     p.mb-4 Estos valores son ilustrativos. La conversión requiere un modelo compatible con las referencias utilizadas; además, no deben confundirse las alturas ortométricas con las alturas normales ni el geoide con el cuasigeoide. geodesy.noaa.gov
 
     p.mb-4 En labores de nivelación se comprueba el tipo de altura, el modelo vertical y la calidad de las mediciones. La exactitud horizontal centimétrica no asegura la misma exactitud vertical, por lo que el desempeño debe validarse antes de utilizar las cotas para diseñar pendientes o drenajes.
-
-    .tema1-reflexion
-      .row.g-0.align-items-stretch
-        .col-md-2.tema1-reflexion__icono.p-4
-          img(src="@/assets/curso/temas/t2/img18.svg" alt="")
-        .col-md-10.tema1-reflexion__contenido.p-4
-          h3.h5 Para reflexionar
-          p La coincidencia visual de dos mapas no demuestra que utilicen la misma referencia. Antes de combinar información del tractor, el dron y el programa cartográfico, conviene revisar la configuración y la procedencia de los datos a partir de estas preguntas:
-          p ¿Qué sistema de coordenadas utiliza cada equipo? ¿Se conocen las unidades, el orden de los valores y el tipo de altura? ¿Se conservaron las coordenadas de la base y la referencia de las líneas guía anteriores?
-          p.mb-0 La posición obtenida mediante GNSS constituye una entrada para el guiado de la maquinaria. Su aprovechamiento depende de configurar correctamente el sistema de piloto automático, sus parámetros y las condiciones de operación.
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .tema1-reflexion
+          .row.g-0.align-items-stretch
+            .col-lg-1.tema1-reflexion__icono.p-3.py-4
+              img(src="@/assets/curso/temas/t2/img18.svg" alt="")
+            .col-md-10.tema1-reflexion__contenido.p-4
+              h3.h5 Para reflexionar
+              p La coincidencia visual de dos mapas no demuestra que utilicen la misma referencia. Antes de combinar información del tractor, el dron y el programa cartográfico, conviene revisar la configuración y la procedencia de los datos a partir de estas preguntas:
+              p ¿Qué sistema de coordenadas utiliza cada equipo? ¿Se conocen las unidades, el orden de los valores y el tipo de altura? ¿Se conservaron las coordenadas de la base y la referencia de las líneas guía anteriores?
+              p.mb-0 La posición obtenida mediante GNSS constituye una entrada para el guiado de la maquinaria. Su aprovechamiento depende de configurar correctamente el sistema de piloto automático, sus parámetros y las condiciones de operación.
 
 </template>
 

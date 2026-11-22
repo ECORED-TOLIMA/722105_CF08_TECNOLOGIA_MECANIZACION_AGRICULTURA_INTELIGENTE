@@ -7,24 +7,24 @@
         span 5
       h1 Corrección de fallas, informe y mejoramiento continuo
 
-    .row.align-items-stretch
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 El desempeño de la maquinaria agrícola depende tanto de su funcionamiento como de la capacidad para reconocer problemas, corregirlos y aprender de los resultados. Una falla atendida oportunamente puede evitar daños mayores, mientras que el análisis de los registros permite identificar cambios que favorecen la productividad, la calidad de las labores y el uso responsable de los recursos.
         .tema2-ejemplo.p-4
           p.mb-0 La corrección de fallas, la elaboración de informes y el mejoramiento continuo son actividades relacionadas. Su aplicación requiere decisiones sustentadas en datos, responsabilidades definidas y comprobaciones que permitan establecer si las intervenciones resolvieron el problema y si sus resultados se mantienen durante la operación.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t5/img1.svg" alt="")
 
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido
       h2 5.1 Corrección de fallas: concepto, tipos e importancia
 
-    .row.align-items-stretch.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-3.col-8.mb-4.mb-lg-0
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t5/img2.png" alt="")
       .col-lg-9
         .row.align-items-center.mb-4
-          .col-md-auto.mb-4.mb-md-0
+          .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
             img.tema5-icono(src="@/assets/curso/temas/t5/img3.svg" alt="")
           .col
             p.mb-0 La corrección de fallas comprende las acciones realizadas para restablecer el funcionamiento de una máquina o recuperar la calidad de una labor después de detectar un problema. Puede involucrar ajustes, reparaciones, cambios en la operación o intervenciones sobre el trabajo ejecutado. Su importancia radica en limitar las consecuencias de la falla, reducir las interrupciones y proteger a las personas, los equipos y el cultivo.
@@ -39,7 +39,7 @@
           span Alternativas de corrección de fallas en la operación
 
     
-        .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+        .tabla-b.tema1-tabla.mb-4
           table
             thead
               tr
@@ -76,8 +76,8 @@
 
     p.mb-4 Una corrección adecuada debe resolver el problema sin introducir nuevos riesgos ni afectar otras funciones de la máquina. Para orientar la intervención, conviene considerar las siguientes características:
 
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         .tema2-ejemplo.p-4.h-100.d-flex.align-items-center
           ul.lista-ul--color.mb-0
             li
@@ -110,7 +110,7 @@
                 strong Documentación
                 br
                 | Registrar el problema, la intervención, el responsable y el resultado obtenido.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t5/img4.png" alt="")
 
     p.mb-4 La revisión posterior a una corrección permite comprobar el estado del implemento antes de realizar una prueba de funcionamiento. Con el equipo detenido y asegurado, el personal verifica las condiciones del conjunto y registra los resultados para decidir si puede retomar la labor, tal como se presenta a continuación:
@@ -124,16 +124,16 @@
           img.d-none.d-lg-block.w-100(src="@/assets/curso/temas/t5/img5.png" alt="Figura 5 que presenta la revisión de una sembradora con el tractor detenido y las ruedas calzadas. Una persona comprueba el implemento mientras otra registra las observaciones.")
           img.d-block.d-lg-none.w-100(src="@/assets/curso/temas/t5/img5_1.png" alt="Figura 5 que presenta la revisión de una sembradora con el tractor detenido y las ruedas calzadas. Una persona comprueba el implemento mientras otra registra las observaciones.")
 
-    .row.align-items-stretch.mb-4
+    .row.align-items-stretch.justify-content-center.mb-4
       .col-lg-8.mb-4.mb-lg-0
         p.mb-4 El tratamiento depende de la causa identificada. El desgaste puede exigir reemplazar componentes; una configuración incorrecta, revisar medidas o parámetros; y una condición inadecuada del terreno, cambiar el momento de ejecución de la labor. La capacitación resulta pertinente cuando se demuestra una necesidad de conocimiento o habilidad, pero no sustituye la reparación de un equipo defectuoso.
         .tema2-ejemplo.p-4
           .row.align-items-center
-            .col-md-auto.mb-4.mb-md-0
+            .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
               img.tema5-icono(src="@/assets/curso/temas/t5/img6.svg" alt="")
             .col
               p.mb-0 Después de aplicar un ajuste, debe medirse nuevamente el parámetro afectado. La comprobación puede incluir profundidad, dosificación, uniformidad, temperatura o desviación de trayectoria, según el problema. Conviene modificar un parámetro a la vez cuando el procedimiento lo permita, para reconocer el efecto de cada cambio.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t5/img7.png" alt="")
 
     .titulo-pastilla.mb-4
@@ -154,7 +154,7 @@
               p.tema2-calculo__operacion.mb-0 Diferencia porcentual = |6,4 − 6,5| / 6,5 × 100 = 1,54 %
 
     .row.align-items-center
-      .col-md-auto.mb-4.mb-md-0
+      .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t5/Group 1196868.svg" alt="")
       .col
         p.mb-0 Si el criterio definido para esta práctica admite una desviación de hasta el 3 %, el promedio cumple ese criterio. Sin embargo, también debe revisarse la distribución de las semillas: un promedio aceptable puede ocultar espacios vacíos o acumulaciones. Los resultados sugieren que la velocidad influyó en el problema, pero no permiten atribuirle toda la causa sin revisar las demás condiciones.
@@ -177,7 +177,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 9.
           span Ejemplo de plan de acciones correctivas diligenciado
-        .tabla-a.color-acento-contenido.tema2-tabla.mb-4
+        .tabla-b.tema1-tabla.mb-4
           table
             thead
               tr
@@ -213,16 +213,16 @@
     #t_5_4.titulo-segundo.color-acento-contenido
       h2 5.4 Informe de operación: concepto, tipos, estructura y elaboración
 
-    .row.align-items-stretch.mb-4
-      .col-lg-9.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         p.mb-4 El informe de operación presenta los resultados de las labores mecanizadas durante un periodo, una intervención o una temporada. Integra los registros, explica las desviaciones y comunica las decisiones necesarias. Mientras el registro conserva datos de un evento o una jornada, el informe los organiza e interpreta para apoyar la gestión.
         .tema5-informe__destacado.p-4
           .row.align-items-center
-            .col-md-auto.mb-4.mb-md-0
+            .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
               img.tema5-icono(src="@/assets/curso/temas/t5/img9.svg" alt="")
             .col
               p.mb-0 Su extensión depende de la finalidad. Un informe de turno puede concentrarse en avances y novedades; uno mensual requiere indicadores y comparaciones; y uno de cierre debe valorar el cumplimiento de las metas y las mejoras pendientes. Los informes de accidentes o incidentes siguen, además, los procedimientos específicos de la organización.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.tema5-informe__imagen(src="@/assets/curso/temas/t5/img10.png" alt="")
 
     p.mb-4 Para elaborar un informe claro y verificable, el contenido puede organizarse en los siguientes apartados:
@@ -255,8 +255,8 @@
     #t_5_5.titulo-segundo.color-acento-contenido
       h2 5.5 Acciones de mejora: concepto, alcance, responsabilidad e importancia
 
-    .row.align-items-stretch.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         img.tema5-mejora__imagen(src="@/assets/curso/temas/t5/img11.png" alt="")
       .col-lg-8
         p.mb-4 Una acción de mejora es una intervención planificada para elevar el desempeño de la operación. Puede responder a un problema identificado o aprovechar una oportunidad, incluso cuando los resultados cumplen lo esperado. Las acciones correctivas forman parte de la mejora, pero esta también incluye cambios destinados a aumentar la capacidad, facilitar el trabajo o utilizar mejor los recursos.
@@ -269,12 +269,12 @@
 
     p.mb-4 En una cosecha se identifican esperas frecuentes porque los remolques llegan al lote sin coordinación. Se propone reorganizar sus recorridos y establecer un mecanismo de comunicación entre los responsables.
 
-    .row.align-items-stretch
-      .col-lg-9.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         .tema2-ejemplo.p-4.h-100
-          img.tema5-icono.mb-4(src="@/assets/curso/temas/t5/img12.svg" alt="")
+          img.tema5-icono.mb-4(src="@/assets/curso/temas/t5/img12.svg" alt="").d-none.d-lg-block
           p.mb-0 La meta consiste en reducir el tiempo de espera por hectárea durante una prueba de cinco jornadas comparables. Se registrarán tiempos, distancias y condiciones del terreno, y se comprobará que el cambio no aumente los riesgos de circulación ni la afectación del suelo. La decisión de ampliar la medida dependerá de los resultados.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.tema5-mejora__imagen(src="@/assets/curso/temas/t5/img13.svg" alt="")
 
     Separador
@@ -298,8 +298,8 @@
 
     p.mb-4 En una superficie de 400 ha, la aplicación repetida pasa del 11 % al 3 %. Los cálculos son:
 
-    .row.align-items-stretch.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-3.col-8.mb-4.mb-lg-0
         img.tema5-mejora__imagen(src="@/assets/curso/temas/t5/img15.svg" alt="")
       .col-lg-9
         .tema2-ejemplo.p-4.h-100.d-flex.align-items-center
@@ -333,7 +333,7 @@
       .col-lg-10
         .tema1-reflexion
           .row.g-0.align-items-stretch
-            .col-md-2.tema1-reflexion__icono.p-4
+            .col-lg-1.tema1-reflexion__icono.p-3.py-4
               img(src="@/assets/curso/temas/t4/img39.svg" alt="")
             .col-md-10.tema1-reflexion__contenido.p-4
               h3.h5 Para reflexionar

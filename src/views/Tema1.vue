@@ -21,12 +21,12 @@
 
     p.mb-4 En Colombia, el Decreto 1072 de 2015 establece las disposiciones del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST). Los empleadores deben identificar peligros, evaluar los riesgos y establecer controles. Para el operador, esto implica conocer los riesgos de su labor, seguir los procedimientos, utilizar los elementos de protección y reportar condiciones inseguras (Ministerio del Trabajo, 2015).
 
-    .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         .tema2-fondosly.p-4.mb-4
           p.mb-0 Los riesgos cambian con el terreno, el implemento y la maniobra. Una carga elevada, una pendiente o un giro brusco pueden modificar la estabilidad del tractor. Las partes giratorias, los puntos ciegos y los mecanismos de enganche también requieren controles específicos.
         p.mb-0 La siguiente tabla relaciona los principales riesgos de la operación con las condiciones que los favorecen y las medidas para controlarlos. Esta relación permite reconocer por qué una recomendación general de precaución debe acompañarse de acciones concretas sobre el equipo, el entorno y la tarea:
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100(src="@/assets/curso/temas/t1/img2.png" alt="")
 
         
@@ -75,51 +75,52 @@
       img(src="@/assets/curso/icon.svg" alt="")
       span Ejemplo: actuación ante un tractor atascado
 
-    p.mb-4 El atascamiento exige detenerse y evaluar la situación antes de intentar recuperar la máquina. La siguiente secuencia reúne decisiones básicas para evitar que una maniobra improvisada provoque un vuelco o la rotura de los dispositivos de recuperación:
-
-    .row.align-items-stretch.mb-4
-      .col-lg-8.mb-4.mb-lg-0
-        .tarjeta.tema2-ejemplo.p-4.h-100
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
+        p El atascamiento exige detenerse y evaluar la situación antes de intentar recuperar la máquina. La siguiente secuencia reúne decisiones básicas para evitar que una maniobra improvisada provoque un vuelco o la rotura de los dispositivos de recuperación:
+        .tarjeta.tema2-ejemplo.p-3
           ol.lista-ol--cuadro.lista-ol--separador.mb-0
             li.d-flex
               .lista-ol--cuadro__vineta
                 span A
               div
-                h4.mb-1 Detención del avance
+                h5.mb-0 Detención del avance
                 p.mb-0 Detener el intento de avance y evitar aceleraciones repetidas o bruscas.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span B
               div
-                h4.mb-1 Aseguramiento y evaluación
+                h5.mb-0 Aseguramiento y evaluación
                 p.mb-0 Asegurar la máquina y evaluar terreno, carga e implementos con personal competente.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span C
               div
-                h4.mb-1 Verificación de puntos de recuperación
+                h5.mb-0 Verificación de puntos de recuperación
                 p.mb-0 Consultar los puntos de recuperación y las limitaciones indicadas por el fabricante. No suponer que cualquier barra o punto de enganche es apto para recuperar el equipo.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span D
               div
-                h4.mb-1 Preparación de la maniobra
+                h5.mb-0 Preparación de la maniobra
                 p.mb-0 Utilizar dispositivos con capacidad nominal adecuada, establecer una zona de exclusión y acordar señales de parada.
-            li.d-flex
+            li.d-flex.mb-0
               .lista-ol--cuadro__vineta
                 span E
               div
-                h4.mb-1 Apoyo especializado y revisión
+                h5.mb-0 Apoyo especializado y revisión
                 p.mb-0 Solicitar recuperación especializada si las condiciones no permiten una maniobra segura. Después, inspeccionar la máquina y registrar la causa del evento.
-      .col-lg-4
-        img.w-100(src="@/assets/curso/temas/t1/img3.png" alt="")
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
+        img(src="@/assets/curso/temas/t1/img3.png" alt="")
 
     p.mb-4 Estas precauciones se apoyan en las orientaciones de WorkSafe Victoria (s. f.) para la recuperación de maquinaria agrícola atascada.
     p.mb-4 Además de actuar correctamente ante una dificultad, la prevención requiere revisar las condiciones antes de comenzar. A continuación, se representa una inspección con el tractor estacionado, como parte de la preparación de la operación:
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 1.
-      span Inspección previa a la operación de maquinaria agrícola
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 1.
+          span Inspección previa a la operación de maquinaria agrícola
     .row.justify-content-center
       .col-lg-10
         figure.mb-0
@@ -138,20 +139,15 @@
           template(v-slot:imagen)
             figure.mb-0
               img.w-100(src="@/assets/curso/temas/t1/img5.svg" alt="")
-          .tarjeta.color-secundario.p-3(x="19%" y="19%" numero="+")
-            h3.h5.mb-2 Protección auditiva
+          .tarjeta.bg01.p-3(x="19%" y="19%" numero="+")
             p.mb-0 Tapones o copas seleccionados según la exposición al ruido y la atenuación requerida. Tener cabina no garantiza por sí solo una exposición aceptable.
-          .tarjeta.color-secundario.p-3(x="83%" y="19%" numero="+")
-            h3.h5.mb-2 Protección ocular
+          .tarjeta.bg01.p-3(x="83%" y="19%" numero="+")
             p.mb-0 Gafas contra partículas durante labores que las proyecten. Ante salpicaduras químicas, utilizar protección apropiada para líquidos; unas gafas abiertas no necesariamente resultan suficientes.
-          .tarjeta.color-secundario.p-3(x="13%" y="43%" numero="+")
-            h3.h5.mb-2 Protección respiratoria
+          .tarjeta.bg01.p-3(x="13%" y="43%" numero="+")
             p.mb-0 Seleccionar el respirador y sus filtros según el contaminante. Un tapabocas común no reemplaza esta protección. Los filtros para partículas no protegen por sí solos contra gases o vapores de determinados agroquímicos.
-          .tarjeta.color-secundario.p-3(x="85%" y="50%" numero="+")
-            h3.h5.mb-2 Protección de manos
+          .tarjeta.bg01.p-3(x="85%" y="50%" numero="+")
             p.mb-0 Emplear guantes para riesgos mecánicos en tareas con el equipo detenido y asegurado. Para sustancias químicas, verificar su resistencia al producto; el nitrilo no constituye una solución universal.
-          .tarjeta.color-secundario.p-3(x="90%" y="82%" numero="+")
-            h3.h5.mb-2 Protección de pies y cuerpo
+          .tarjeta.bg01.p-3(x="90%" y="82%" numero="+")
             p.mb-0 Utilizar botas de seguridad con suela adecuada y ropa sin partes sueltas. La manga larga y la protección solar complementan el cuidado de la piel; el manejo de químicos puede exigir vestuario específico.
 
     figure.mb-4.d-md-none
@@ -179,11 +175,11 @@
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Equipos de emergencia y actuación inicial
 
-    .row.align-items-stretch.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         img.tema1-panel__imagen(src="@/assets/curso/temas/t1/img6.png" alt="")
       .col-lg-8
-        .tema1-apertura__destacado.p-4.mb-4
+        .tema2-ejemplo-decision.p-4.mb-4
           p.mb-0 La preparación incluye un extintor apropiado para los riesgos identificados, botiquín, medios de comunicación y contactos de emergencia. En lugares sin cobertura se establece un procedimiento alternativo de aviso. También se definen la ubicación del frente de trabajo, los accesos y el punto de encuentro para facilitar la respuesta.
         p.mb-0 Ante una emergencia, primero se reconoce el peligro y se evita exponer a otras personas; después se activa la ayuda y se comunica la ubicación y el tipo de evento. El auxilio se presta dentro de la capacitación recibida y conforme al plan de emergencias.
 
@@ -191,11 +187,10 @@
       img(src="@/assets/curso/icon.svg" alt="")
       span Uso del extintor
 
-    p.mb-4 Solo se intenta controlar un fuego incipiente cuando se cuenta con capacitación, un extintor adecuado y una ruta de escape libre. Una vez verificadas estas condiciones, el empleo básico del equipo comprende los siguientes pasos, respetando siempre sus instrucciones de uso:
-
-    .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
-        .cajon.color-secundario.p-4
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
+        p.mb-3 Solo se intenta controlar un fuego incipiente cuando se cuenta con capacitación, un extintor adecuado y una ruta de escape libre. Una vez verificadas estas condiciones, el empleo básico del equipo comprende los siguientes pasos, respetando siempre sus instrucciones de uso:
+        .cajon.color-secundario.p-4.mb-4
           ul.lista-ul--color.mb-0
             li
               i.fas.fa-seedling
@@ -209,10 +204,9 @@
             li.mb-0
               i.fas.fa-seedling
               span Barrer de lado a lado, conservando una salida disponible.
-      .col-lg-4
+        p.mb-0 Si el fuego crece, el humo dificulta actuar o se compromete la salida, se abandona el intento y se evacua.
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100(src="@/assets/curso/temas/t1/img7.png" alt="")
-
-    p.mb-4 Si el fuego crece, el humo dificulta actuar o se compromete la salida, se abandona el intento y se evacua.
 
     .titulo-pastilla
       img(src="@/assets/curso/icon.svg" alt="")
@@ -220,7 +214,7 @@
 
     p.mb-4 La respuesta inicial cambia según el evento. Un vuelco, un atrapamiento o una tormenta presentan peligros diferentes, por lo que no deben atenderse mediante una única instrucción general. Las siguientes orientaciones destacan las precauciones que deben incorporarse al plan de emergencias:
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -256,20 +250,18 @@
 
     p.mb-4 La operación utiliza combustibles, lubricantes, fertilizantes y agroquímicos con propiedades diferentes. La matriz de compatibilidad es un cuadro de doble entrada que permite establecer qué productos pueden compartir un área, cuáles requieren separación y cuáles son incompatibles. Se construye con el inventario real y las fichas de datos de seguridad (FDS), especialmente las secciones de peligros, almacenamiento y reactividad.
 
-    .row.align-items-stretch.mb-4
-      .col-lg-9.mb-4.mb-lg-0
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         .tema1-panel.p-4.mb-4
           .row.align-items-center
-            .col-md-auto.mb-4.mb-md-0
+            .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
               img.tema1-icono(src="@/assets/curso/temas/t1/img12.svg" alt="")
             .col
               p.mb-0 Por ejemplo, los inflamables deben separarse de los oxidantes incompatibles. Compartir un uso agrícola o un pictograma no garantiza compatibilidad. Tampoco una matriz de almacenamiento autoriza mezclar productos ni transportarlos conjuntamente. Las etiquetas y las FDS son instrumentos de comunicación de peligros reconocidos por el Decreto 1496 de 2018 (Ministerio del Trabajo, 2018).
         p El Decreto 1076 de 2015 reúne disposiciones ambientales sobre residuos peligrosos y manejo de plaguicidas. En la operación, la sostenibilidad implica controlar fugas, evitar pasadas innecesarias y ralentí prolongado, mantener la máquina y reducir la compactación mediante decisiones apropiadas sobre humedad del suelo, presión de neumáticos y circulación.
         p.mb-0 El manejo ambiental continúa después de utilizar los insumos, pues los residuos conservan características que pueden afectar a las personas y al entorno. La siguiente tabla diferencia las precauciones de almacenamiento y las vías de gestión de algunos residuos frecuentes de la operación:
-      .col-lg-3
-        img.tema1-panel__imagen(src="@/assets/curso/temas/t1/img13.png" alt="")
-
-    
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
+        img.tema1-panel__imagen(src="@/assets/curso/temas/t1/img13.png" alt="")   
 
     .row.justify-content-center
       .col-lg-10
@@ -285,45 +277,41 @@
                 th Vía de gestión
             tbody
               tr
-                td
-                  strong Aceites usados.
+                td Aceites usados.
                 td Recoger en recipientes compatibles, cerrados y rotulados, con contención. No verter al suelo, al agua o al alcantarillado.
                 td Entregar a un gestor autorizado para esa corriente y conservar el soporte.
               tr
-                td
-                  strong Filtros, trapos y absorbentes contaminados.
+                td Filtros, trapos y absorbentes contaminados.
                 td Separar de residuos ordinarios y almacenar en recipientes apropiados según su peligrosidad.
                 td Gestionar según su caracterización y las autorizaciones del receptor.
               tr
-                td
-                  strong Baterías usadas.
+                td Baterías usadas.
                 td Evitar golpes y fugas; mantener en un área protegida y con contención adecuada.
                 td Entregar mediante el sistema de recolección o gestor correspondiente.
               tr
-                td
-                  strong Envases y residuos de plaguicidas.
+                td Envases y residuos de plaguicidas.
                 td Separar por tipo y seguir la etiqueta y las instrucciones del programa. El triple lavado solo se realiza en los envases a los que aplica.
                 td Entregar al plan posconsumo; no reutilizar para alimentos, agua u otros usos domésticos.
 
     .row.align-items-stretch
       .col-lg-8.mb-4.mb-lg-0
-        .cajon.color-primario.p-4.h-100
+        .cajon.color-primario.p-4
           p.mb-0 La Resolución 1675 de 2013 define el triple lavado para determinados envases rígidos de plástico con tapa removible y establece excepciones. Los enjuagues se incorporan al caldo de aspersión según el procedimiento; no se descargan al suelo o al agua. No se aplica indiscriminadamente a empaques flexibles o envases presurizados. El lavado de equipos y la atención de derrames deben evitar que el contaminante llegue a fuentes hídricas y drenajes (Ministerio de Ambiente y Desarrollo Sostenible, 2013).
-      .col-lg-4
+      .col-lg-3
         img.tema1-panel__imagen(src="@/assets/curso/temas/t1/img14.png" alt="")
 
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5 Operación y traslado de maquinaria por vías públicas
 
-    .row.align-items-center.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-3.col-8.mb-4.mb-lg-0
         img.w-100(src="@/assets/curso/temas/t1/img15.png" alt="")
       .col-lg-9
         p.mb-4 El traslado entre fincas exige considerar la baja velocidad de la maquinaria, sus dimensiones y la presencia de otros usuarios. La planeación debe establecer si el conjunto puede circular por sus propios medios o requiere transporte especializado, según sus características y las condiciones normativas y de la ruta.
         .tema1-apertura__destacado2.p-4
           .row.align-items-center
-            .col-md-auto.mb-4.mb-md-0
+            .col-md-auto.mb-4.mb-md-0.d-none.d-lg-block
               img.tema1-icono(src="@/assets/curso/temas/t1/img16.svg" alt="")
             .col
               p.mb-0 En Colombia deben verificarse los requisitos de registro, documentación y circulación aplicables. La Resolución 20243040056195 de 2024 contempla, para el desplazamiento por vías de uso público, portar la tarjeta o certificación de registro de la maquinaria y el SOAT correspondiente (Ministerio de Transporte, 2024).
@@ -334,8 +322,8 @@
 
     p.mb-4 Antes de iniciar el desplazamiento, la revisión debe abarcar tanto el estado del conjunto como las condiciones del recorrido. Los siguientes puntos permiten organizar esta comprobación y reconocer situaciones que requieren corrección o consulta previa:
 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Equipo")
             p.mb-0 Revisar el funcionamiento de los frenos, la dirección, las luces y las direccionales, así como el estado y la presión de los neumáticos según las indicaciones del fabricante. Comprobar que no existan fugas ni fallas que comprometan el desplazamiento. Unir los pedales de freno cuando el diseño y el manual del tractor así lo indiquen para la circulación.
@@ -347,18 +335,19 @@
             p.mb-0 Planear el recorrido e identificar puentes estrechos, límites de carga y altura, pendientes, cruces y lugares que permitan el paso del conjunto. Considerar el estado de la superficie, las condiciones climáticas y la presencia de otros vehículos o peatones. Programar el traslado con visibilidad suficiente y adaptar la velocidad a las características de la maquinaria y de la vía.
           .row(numero="5" titulo="Personas")
             p.mb-0 No transportar pasajeros si la máquina no dispone de puestos habilitados para ellos. Informar al personal de apoyo sobre la ruta, los puntos de encuentro y las condiciones del desplazamiento. Acordar señales claras de comunicación y de parada, y comprobar que todas las personas se encuentren fuera de la trayectoria y de las zonas de maniobra antes de iniciar el movimiento.
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img.w-100(src="@/assets/curso/temas/t1/img17.png" alt="")
-
-    .tema1-reflexion
-      .row.g-0.align-items-stretch
-        .col-md-2.tema1-reflexion__icono.p-4
-          img(src="@/assets/curso/temas/t1/img18.svg" alt="")
-        .col-md-10.tema1-reflexion__contenido.p-4
-          h3.h5 Para reflexionar
-          p La experiencia del operador debe acompañarse de verificaciones y decisiones preventivas. A partir de las condiciones habituales de trabajo en la región, conviene considerar las siguientes preguntas:
-          p ¿Qué condiciones del equipo o del entorno obligarían a suspender una labor, aunque el operador tenga experiencia? ¿Cómo se verifica el uso del cinturón en los tractores con ROPS?
-          p.mb-0 Una operación segura y ambientalmente responsable también requiere información sobre su ejecución. Los registros permiten analizar el desempeño, reconocer fallas y sustentar acciones de mejora.
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .tema1-reflexion
+          .row.g-0.align-items-stretch
+            .col-lg-1.tema1-reflexion__icono.p-3.py-4
+              img(src="@/assets/curso/temas/t1/img18.svg" alt="")
+            .col-lg-11.tema1-reflexion__contenido.p-4
+              h3.h5 Para reflexionar
+              p La experiencia del operador debe acompañarse de verificaciones y decisiones preventivas. A partir de las condiciones habituales de trabajo en la región, conviene considerar las siguientes preguntas:
+              p ¿Qué condiciones del equipo o del entorno obligarían a suspender una labor, aunque el operador tenga experiencia? ¿Cómo se verifica el uso del cinturón en los tractores con ROPS?
+              p.mb-0 Una operación segura y ambientalmente responsable también requiere información sobre su ejecución. Los registros permiten analizar el desempeño, reconocer fallas y sustentar acciones de mejora.
 </template>
 
 <script>
