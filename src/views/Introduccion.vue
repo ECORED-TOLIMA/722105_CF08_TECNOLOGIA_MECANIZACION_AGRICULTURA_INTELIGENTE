@@ -32,7 +32,7 @@
       .col-lg-12
         figure.mb-0
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="1331" height="749" src="https://www.youtube.com/embed/iAxR93vvBCI" title="Operation, Evaluation, and Improvement of Agricultural Machinery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
 </template>
 
