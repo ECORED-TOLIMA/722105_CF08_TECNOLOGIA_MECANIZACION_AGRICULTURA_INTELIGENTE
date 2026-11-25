@@ -289,9 +289,9 @@ export default {
         'Equipos y prendas seleccionados según los peligros y la exposición del trabajador. Complementan las medidas de control aplicadas a la máquina y a la tarea.',
     },
     {
-      termino: 'Firmware',
+      termino: '<em>Firmware</em>',
       significado:
-        'Tipo de software integrado en un componente electrónico que controla sus funciones internas, como las de un receptor GNSS o un controlador de dirección.',
+        'Tipo de <em>software</em> integrado en un componente electrónico que controla sus funciones internas, como las de un receptor GNSS o un controlador de dirección.',
     },
     {
       termino: 'GNSS',

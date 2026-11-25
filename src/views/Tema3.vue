@@ -233,7 +233,7 @@
       .col-lg-4.col-8.mb-4.mb-lg-0
         img.w-100.h-100.object-fit-cover(src="@/assets/curso/temas/t3/img12.png" alt="")
       .col-lg-8
-        p.mb-4 El firmware es un tipo de software integrado en los componentes electrónicos que controla funciones internas del receptor, el monitor o el controlador de dirección. En el uso cotidiano, suele distinguirse del software de aplicación, que permite configurar equipos, visualizar el guiado y gestionar las labores.
+        p.mb-4 El #[i firmware] es un tipo de #[i software] integrado en los componentes electrónicos que controla funciones internas del receptor, el monitor o el controlador de dirección. En el uso cotidiano, suele distinguirse del #[i software] de aplicación, que permite configurar equipos, visualizar el guiado y gestionar las labores.
         .tema1-apertura__destacado.p-4.mb-4
           p.mb-0 También existen aplicaciones de escritorio y servicios en la nube para organizar mapas, límites, líneas guía y registros. La compatibilidad entre estas herramientas y los componentes instalados debe verificarse antes de actualizar o transferir información.
         p.mb-0 Las actualizaciones pueden corregir errores, incorporar funciones o mantener la compatibilidad con determinados servicios. Sin embargo, instalar una versión nueva no sustituye la revisión de sus requisitos ni garantiza que se conserven todos los ajustes anteriores.
@@ -245,7 +245,7 @@
         AcordionA.mb-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Revisión de versiones")
             .col-12
-              p.mb-0 Identificar las versiones de firmware y software instaladas en el monitor, el receptor y el controlador de guiado. Consultar las notas de publicación del fabricante para conocer las correcciones, las funciones incorporadas y los requisitos de compatibilidad. Antes de programar una actualización, comprobar si exige versiones intermedias, ajustes adicionales o intervención del servicio técnico, y prever el tiempo necesario para realizarla y verificar su resultado.
+              p.mb-0 Identificar las versiones de #[i firmware] y #[i software] instaladas en el monitor, el receptor y el controlador de guiado. Consultar las notas de publicación del fabricante para conocer las correcciones, las funciones incorporadas y los requisitos de compatibilidad. Antes de programar una actualización, comprobar si exige versiones intermedias, ajustes adicionales o intervención del servicio técnico, y prever el tiempo necesario para realizarla y verificar su resultado.
           .row(titulo="Respaldo de información")
             .col-12
               p.mb-0 Guardar una copia antes de actualizar el sistema y después de realizar cambios importantes en la configuración. Incluir los perfiles de tractor e implemento, los límites de los lotes, las líneas guía y los registros que el equipo permita exportar. Identificar cada copia con la fecha, el equipo y su contenido, almacenarla fuera del monitor y comprobar que los archivos se hayan transferido correctamente.
@@ -256,7 +256,7 @@
             .col-12
               p.mb-0 Comprobar que la actualización haya finalizado correctamente y que los perfiles, las medidas del conjunto, los servicios de corrección y las funciones necesarias permanezcan disponibles y correctamente seleccionados. Revisar las alertas y efectuar las comprobaciones o recalibraciones indicadas por el fabricante. Antes de retomar la labor, realizar una prueba en condiciones seguras para verificar el seguimiento de la trayectoria y la separación entre pasadas, y registrar los cambios efectuados.
 
-    p.mb-4 Los respaldos deben almacenarse fuera del monitor y comprobarse mediante las opciones de consulta o restauración disponibles. La sincronización no debe asumirse como una copia completa sin verificar qué datos incluye. Las instrucciones de actualización y transferencia varían entre sistemas y versiones. content.trimbleag.com
+    p.mb-4 Los respaldos deben almacenarse fuera del monitor y comprobarse mediante las opciones de consulta o restauración disponibles. La sincronización no debe asumirse como una copia completa sin verificar qué datos incluye. Las instrucciones de actualización y transferencia varían entre sistemas y versiones.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
